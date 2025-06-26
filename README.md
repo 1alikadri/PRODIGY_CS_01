@@ -1,28 +1,27 @@
 📁 Task 1: Caesar Cipher – Text Encryption/Decryption
 
-🧠 What I Learned
-Basics of classical cryptography.
+🔧 Description
+A simple Python tool that encrypts and decrypts messages using the Caesar Cipher, a classic shift-based substitution cipher. Users input a message and a shift value.
 
-Character manipulation using ASCII values.
+📜 How It Works
+Each alphabet in the message is shifted by a fixed number (key).
 
-Writing modular, user-interactive Python scripts.
+Non-alphabet characters remain unchanged.
 
-🛠️ How It Works
-The Caesar Cipher shifts each alphabet in the text by a fixed value. It's one of the oldest encryption methods and is useful for understanding substitution ciphers.
+Supports both encryption and decryption via user input.
 
-For example, a shift of 2:
-A → C, B → D, Z → B
-
-💡 Features
-Encrypts and decrypts any English sentence.
-
-Retains spaces, punctuation, and case.
-
-User chooses shift value and mode (Encrypt/Decrypt).
-
-📦 Usage
-python caesar_cipher.py
-Enter message: Hello World!
+🖥️ Sample Output
+Enter your message: hello world
 Enter shift value: 3
-Encrypt or Decrypt? (e/d): e
-Result: Khoor Zruog!
+Encrypted: khoor zruog
+Decrypted: hello world
+💡 What You Learn
+Skill	Description
+String Manipulation	Looping, character encoding (ASCII)
+Encryption Basics	Understand symmetric shift ciphers
+User Input	Grasp how to build interactive scripts
+
+🛠️ Installation
+No dependencies required. Pure Python.
+▶️ How to Run
+python caesar_cipher.py
